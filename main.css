@@ -1,0 +1,39 @@
+	.woo-entry-inner{
+		display: grid !important;
+	}
+
+	.woo-entry-inner li.image-wrap{
+		grid-column: span 6;
+	}
+
+	.woo-entry-inner li.product-details{
+		grid-column: span 4;
+		margin-bottom: 0 !important;
+		line-height: 1 !important;
+
+	}
+
+	.woo-entry-inner li.btn-wrap{
+		grid-column: span 2;
+
+	}
+	.woo-entry-inner li{
+		margin-bottom: 0 !important;
+	}
+	.woo-entry-inner li.product-details ul{
+		display: grid;
+		grid-gap: 0;
+	}
+
+	.woo-entry-inner li.product-details ul li{
+		width: 100%;
+	}
+
+	a.owp-quick-view{
+		min-height: 100%;
+		padding-top: 32%;
+		border-radius: 4%;
+		opacity: 0.7 !important;
+		margin-bottom: 4%;
+		font-size: 1.4em;
+	}
